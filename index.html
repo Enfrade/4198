@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- META TAGS -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- GENERAL TAGS -->
+  <title>Developer Tech</title>
+  <meta name="title" content="Developer Tech">
+  <meta name="description" content="Where networking and development opportunities are created for individuals and groups alike.">
+  <link rel="shortcut icon" href="./assets/images/Logo_Transparent.png" type="image/svg+xml">
+
+  <!-- LINK TAGS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preload" as="image" href="./assets/images/Logo.png">
+  <link rel="stylesheet" href="./assets/css/pricing.css">
+<body>
+
+  <!-- NAVBAR -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/Logo_Transparent.png" style="height: 35px;" class="logo-light">
+
+        <img src="./assets/images/Logo_Transparent.png" style="height: 35px;" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/Logo_Transparent.png" style="height: 35px;" alt="Developer Tech">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">Pricing</a>
+          </li>
+
+          <li>
+            <a href="https://support.developertech.co.za" class="navbar-link">Support</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="https://support.developertech.co.za" class="contact-link">support@developertech.co.za</a>
+
+        </div>
+      </nav>
+
+      <a href="mailto:support@developertech.co.za" class="btn btn-primary">Contact</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+ <!-- HOME SECTION -->
+
+      <section id="home" class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/Home_Background.svg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Empowering Developers to Create The Future</h1>
+
+            <p class="hero-text">
+            Where networking and development opportunities are created for individuals and groups alike.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="https://discord.gg/GSXvV9vafb" class="btn btn-primary">Discord</a>
+
+              <a href="contact.html" class="btn btn-outline">Pricing</a>
+
+            </div>
+
+          </div>
+
+
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/Illustration.svg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+        </div>
+    </section>
+
+
+
+
+
+   <!-- ABOUT SECTION -->
+      <section id="about" class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/About_Illustration.svg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">
+              About Us
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                  <p>
+                    Our Discord community is dedicated to fostering innovation in the development of bots, web applications, and mobile apps. Our members are passionate about utilizing cutting-edge technologies and techniques to create engaging, functional, and user-friendly software solutions. Through collaborative discussions, sharing of insights and expertise, and hands-on development projects, our community aims to drive forward the growing field of software development. Come join us and become part of a dynamic and forward-thinking community that is at the forefront of the ever-evolving digital landscape.
+                  </p>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- PRICING SECTION -->
+
+
+    
+
+    <div class="container">
+      <h1 class="title">Choose a plan</h1>
+
+      <div class="cards">
+
+        <!-- Basic Plan -->
+          <div class="card" id="card-1">
+            <h1 class="card-title">Basic</h1>
+            <h2 class="card-price" id="starter-price"> 5</h2>
+            <ul class="card-plan">
+              <li>Discord Bot Maker Access</li>
+              <li>100% Working Discord Bots</li>
+          </ul>
+            <button type="button" class="card-btn"> 1x Nitro Cl</button>
+          </div>
+
+          <!-- Premium Plan -->
+          <div class="card active" id="card-2">
+            <h1 class="card-title">Premium</h1>
+            <h2 class="card-price" id="pro-price"> 15</h2>
+          
+            <ul class="card-plan">
+                <li>Discord Bot Maker Access</li>
+                <li>100% Working Discord Bots</li>
+                <li>Source Code Of Our Bots</li>
+            </ul>
+            <button type="button" class="card-btn"> 1x Nitro</button>
+          </div>
+
+          <!-- Ultimate Card -->
+          <div class="card" id="card-3">
+            <h1 class="card-title">Ultimate</h1>
+            <h2 class="card-price">20</h2>
+            <ul class="card-plan">
+                <li>Discord Bot Maker Access</li>
+                <li>100% Working Discord Bots</li>
+                <li>Source Code Of Our Bots</li>
+                <li>Lifetime Discord Bot Updates</li>
+            </ul>
+            <button type="button" class="card-btn"> 2x Nitro</button>
+          </div>
+      </div>
+    </div>
+
+    <br><br><br>
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Start your journey with us today
+          </h2>
+
+          <a href="#" class="btn btn-primary">Discord Server</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/Logo_Transparent.png" width="74" height="24" alt="Developer Tech"> <strong>DEVELOPER TECH</strong>
+        </a>
+
+        <p class="footer-text">
+          &copy; 2023 Developer Tech - All rights reserved.
+        </p>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <a href="https://www.youtube.com/@criticaldevx/videos">
+        <li>
+          <address class="footer-text">
+            YouTube
+          </address>
+        </li>
+        </a>
+
+        <li>
+          <a href="mailto:support@developertech.co.za" class="footer-link">support@developertech.co.za</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#about" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="pricing.html" class="footer-link">Pricing</a>
+        </li>
+
+        <li>
+          <a href="https://support.developertech.co.za" class="footer-link">Support</a>
+        </li>
+
+        <li>
+          <a href="https://discord.gg/GSXvV9vafb" class="footer-link">Discord</a>
+        </li>
+
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
